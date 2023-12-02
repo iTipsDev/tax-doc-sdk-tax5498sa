@@ -56,7 +56,7 @@ public class Tax5498SaDocumentGenerator {
         Tax5498SaPdfBuilder pdfBuilder = new Tax5498SaPdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/Tax5498Sa.sample.png";
+        String filePath = "samples/Tax5498Sa.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -84,6 +84,12 @@ public class Tax5498SaDocumentGenerator {
         String filePath = "samples/Tax5498Sa.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/Tax5498Sa.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
+
 
     }
 
