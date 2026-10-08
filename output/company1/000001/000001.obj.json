@@ -1,0 +1,57 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "84-198-5810",
+  "taxFormId" : "1140588",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0726365",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Toy, Carter and Trantow"
+    },
+    "address" : {
+      "line1" : "782 Schiller Park",
+      "city" : "South Malikchester",
+      "region" : "WI",
+      "postalCode" : "94498",
+      "unitType" : "Apt",
+      "unitNumber" : "344"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "bruce.smith@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-90-1580",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Harland",
+      "middle" : "Arden",
+      "last" : "Kuphal"
+    },
+    "businessName" : {
+      "name1" : "Considine LLC"
+    },
+    "address" : {
+      "line1" : "86722 Tijuana Run",
+      "city" : "Corymouth",
+      "region" : "WY",
+      "postalCode" : "05418",
+      "unitType" : "Apt",
+      "unitNumber" : "595"
+    },
+    "email" : "isiah.kunze@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "311-03114-0",
+  "msaContributions" : 200,
+  "totalContributions" : 300,
+  "totalPostYearEnd" : 400,
+  "rolloverContributions" : 500,
+  "fairMarketValue" : 600,
+  "hsa" : true,
+  "archer" : true,
+  "maMsa" : true
+}

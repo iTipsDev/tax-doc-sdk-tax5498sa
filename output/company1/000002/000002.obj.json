@@ -1,0 +1,57 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "37-581-0511",
+  "taxFormId" : "1446772",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0726365",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Toy, Carter and Trantow"
+    },
+    "address" : {
+      "line1" : "782 Schiller Park",
+      "city" : "South Malikchester",
+      "region" : "WI",
+      "postalCode" : "94498",
+      "unitType" : "Apt",
+      "unitNumber" : "344"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "bruce.smith@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-59-3717",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Aracely",
+      "middle" : "Hallie",
+      "last" : "Murphy"
+    },
+    "businessName" : {
+      "name1" : "Murray-Bode"
+    },
+    "address" : {
+      "line1" : "604 Isaiah Center",
+      "city" : "Chantelleside",
+      "region" : "VT",
+      "postalCode" : "37813",
+      "unitType" : "Apt",
+      "unitNumber" : "563"
+    },
+    "email" : "denae.deckow@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "462-76511-7",
+  "msaContributions" : 200,
+  "totalContributions" : 300,
+  "totalPostYearEnd" : 400,
+  "rolloverContributions" : 500,
+  "fairMarketValue" : 600,
+  "hsa" : true,
+  "archer" : true,
+  "maMsa" : true
+}
